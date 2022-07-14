@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "OpenSession";
+option go_package = "scheduler/openSession";
+package openSession;
+
+service OpenSession {
+  rpc Request (SchedulerRequest) returns (SessionInfo) {}
+}
+
+message SchedulerRequest {
+  int32 version = 1;
+  int32 res_x = 2;
+  int32 res_y = 3;
+}
+
+message SessionInfo {
+  int32 status = 1;
+  int32 sessionId = 2;
+}

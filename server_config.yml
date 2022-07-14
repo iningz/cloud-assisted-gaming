@@ -1,0 +1,13 @@
+ScheduleServerHost: NONE
+ScheduleListenPort: 50052
+
+EncodePreset: Medium
+FrameRate: 60
+Crf: 35
+Gop: 15
+
+Mtu: 2800
+ClientPort: 225
+TimeToEndSession: 10
+
+LogPeriod: 1.0

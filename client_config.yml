@@ -1,0 +1,24 @@
+BasicSetting:
+  Width: 0
+  Height: 0
+  GameVersion: 0
+  Mtu: 2800
+  FrameRate: 60
+  BufferSize: 20
+DelayControl:
+  HistoryLength: 64
+  SessionHistoryLength: 32
+  DelayAdjustPeriod: 15
+  LengthenDelayThreshold: 0.9
+  ShortenDelayThreshold: 0.95
+  DelayIncrementMilliseconds: 4
+  SatisfyingDelayMilliseconds: 120
+ServerFinding:
+  ScheduleServerHost: 172.24.204.168:50051
+  RequestPeriod: 2.0
+  RequestTimeoutMilliseconds: 5000
+  TargetServerCount: 2
+  ServerOnTimeRateRequirement: 0.8
+  TimeToKillServer: 4.0
+Testing: 
+  StatsPeriod: 1.0

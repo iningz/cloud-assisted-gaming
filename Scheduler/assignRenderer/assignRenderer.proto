@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "AssignRenderer";
+option go_package = "scheduler/assignRenderer";
+package assignRenderer;
+
+service Assignor {
+  rpc Request (ClientRequest) returns (ServerInfo) {}
+}
+
+message ClientRequest {
+  int32 version = 1;
+  int32 res_x = 2;
+  int32 res_y = 3;
+  repeated string exServers = 4;
+}
+
+message ServerInfo {
+  int32 status = 1;
+  string host = 2;
+  int32 port = 3;
+  int32 sessionId = 4;
+}

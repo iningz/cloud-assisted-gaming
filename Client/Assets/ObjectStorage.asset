@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4de95023e5446c48bed1faa6ea3e64c, type: 3}
+  m_Name: ObjectStorage
+  m_EditorClassIdentifier: 
+  m_entires:
+  - Id: 1
+    Name: cube
+    Object: {fileID: 11400000, guid: 1ad43c4c934afe9488ccfc5e2275ff46, type: 2}
+  - Id: 2
+    Name: plane
+    Object: {fileID: 11400000, guid: b0831ab08e082754aa41d0f442f8acb0, type: 2}
+  - Id: 3
+    Name: ball
+    Object: {fileID: 11400000, guid: 146236a03ec9b754698a7d050e88a6ff, type: 2}
