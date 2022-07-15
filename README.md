@@ -1,5 +1,5 @@
 # Cloud Assisted Gaming
-ShanghaiTech CS225 Course Project
+Course Project for ShanghaiTech CS225 Advanced Distributed Systems
 
 Authors: [wjw78879](https://github.com/wjw78879), [Zhang Yi-ning](https://github.com/yining765)
 
